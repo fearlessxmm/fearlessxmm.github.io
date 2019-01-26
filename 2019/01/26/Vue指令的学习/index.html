@@ -71,7 +71,7 @@
 
 
 
-  <meta name="keywords" content="Git,vscode,">
+  <meta name="keywords" content="Vue,Vue指令,">
 
 
 
@@ -82,23 +82,18 @@
 
 
 
-<meta name="description" content="git在vscode中的使用（好多坑啊。。。。哭泣（填坑填坑！！记下来，不然之后绝对要忘记">
-<meta name="keywords" content="Git,vscode">
+<meta name="description" content="Vue之 - 基本的代码结构12345678910111213141516171819&amp;lt;!-- 1. 导入Vue的包 --&amp;gt;  &amp;lt;script src=&amp;quot;./lib/vue-2.4.0.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;  &amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt;    &amp;lt;p&amp;gt;&amp;#123;&amp;#123; msg &amp;#12">
+<meta name="keywords" content="Vue,Vue指令">
 <meta property="og:type" content="article">
-<meta property="og:title" content="git在vscode中的使用">
-<meta property="og:url" content="https://fearlessxmm.github.io/2019/01/18/git的使用4/index.html">
+<meta property="og:title" content="Vue指令的学习（一）">
+<meta property="og:url" content="https://fearlessxmm.github.io/2019/01/26/Vue指令的学习/index.html">
 <meta property="og:site_name" content="MyBlog">
-<meta property="og:description" content="git在vscode中的使用（好多坑啊。。。。哭泣（填坑填坑！！记下来，不然之后绝对要忘记">
+<meta property="og:description" content="Vue之 - 基本的代码结构12345678910111213141516171819&amp;lt;!-- 1. 导入Vue的包 --&amp;gt;  &amp;lt;script src=&amp;quot;./lib/vue-2.4.0.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;  &amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt;    &amp;lt;p&amp;gt;&amp;#123;&amp;#123; msg &amp;#12">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://fearlessxmm.github.io/2019/01/18/git的使用4/git1.jpg">
-<meta property="og:image" content="https://fearlessxmm.github.io/2019/01/18/git的使用4/git2.jpg">
-<meta property="og:image" content="https://fearlessxmm.github.io/2019/01/18/git的使用4/git3.jpg">
-<meta property="og:image" content="https://fearlessxmm.github.io/2019/01/18/git的使用4/git4.jpg">
-<meta property="og:updated_time" content="2019-01-18T15:09:43.985Z">
+<meta property="og:updated_time" content="2019-01-26T04:22:55.742Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="git在vscode中的使用">
-<meta name="twitter:description" content="git在vscode中的使用（好多坑啊。。。。哭泣（填坑填坑！！记下来，不然之后绝对要忘记">
-<meta name="twitter:image" content="https://fearlessxmm.github.io/2019/01/18/git的使用4/git1.jpg">
+<meta name="twitter:title" content="Vue指令的学习（一）">
+<meta name="twitter:description" content="Vue之 - 基本的代码结构12345678910111213141516171819&amp;lt;!-- 1. 导入Vue的包 --&amp;gt;  &amp;lt;script src=&amp;quot;./lib/vue-2.4.0.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;  &amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt;    &amp;lt;p&amp;gt;&amp;#123;&amp;#123; msg &amp;#12">
 
 
 
@@ -128,13 +123,13 @@
 
 
 
-  <link rel="canonical" href="https://fearlessxmm.github.io/2019/01/18/git的使用4/">
+  <link rel="canonical" href="https://fearlessxmm.github.io/2019/01/26/Vue指令的学习/">
 
 
 
 
 
-  <title>git在vscode中的使用 | MyBlog</title>
+  <title>Vue指令的学习（一） | MyBlog</title>
   
 
 
@@ -281,7 +276,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://fearlessxmm.github.io/2019/01/18/git的使用4/">
+    <link itemprop="mainEntityOfPage" href="https://fearlessxmm.github.io/2019/01/26/Vue指令的学习/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Fearless Xmm">
@@ -298,7 +293,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">git在vscode中的使用</h1>
+          <h1 class="post-title" itemprop="name headline">Vue指令的学习（一）</h1>
         
 
         <div class="post-meta">
@@ -310,8 +305,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-18T22:45:45+08:00">
-                2019-01-18
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-26T11:37:00+08:00">
+                2019-01-26
               </time>
             
 
@@ -326,35 +321,13 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-01-18T23:09:43+08:00">
-                2019-01-18
+              <time title="更新于" itemprop="dateModified" datetime="2019-01-26T12:22:55+08:00">
+                2019-01-26
               </time>
             
           </span>
 
           
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/Git/" itemprop="url" rel="index">
-                    <span itemprop="name">Git</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
 
           
             
@@ -362,7 +335,7 @@
 
           
           
-             <span id="/2019/01/18/git的使用4/" class="leancloud_visitors" data-flag-title="git在vscode中的使用">
+             <span id="/2019/01/26/Vue指令的学习/" class="leancloud_visitors" data-flag-title="Vue指令的学习（一）">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -392,7 +365,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  720
+                  919
                 </span>
               
 
@@ -408,7 +381,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  2
+                  4
                 </span>
               
             </div>
@@ -430,60 +403,43 @@
       
 
       
-        <h3 id="git在vscode中的使用"><a href="#git在vscode中的使用" class="headerlink" title="git在vscode中的使用"></a>git在vscode中的使用</h3><p>（好多坑啊。。。。哭泣<br>（填坑填坑！！记下来，不然之后绝对要忘记<br><a id="more"></a></p>
-<blockquote>
-<p>首先呢，按照网上的教程，一步一步来<br>这里，先来个概述</p>
+        <h2 id="Vue之-基本的代码结构"><a href="#Vue之-基本的代码结构" class="headerlink" title="Vue之 - 基本的代码结构"></a>Vue之 - <code>基本的代码结构</code></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- 1. 导入Vue的包 --&gt;</span><br><span class="line">  &lt;script src=&quot;./lib/vue-2.4.0.js&quot;&gt;&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">  &lt;div id=&quot;app&quot;&gt;</span><br><span class="line">    &lt;p&gt;&#123;&#123; msg &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">  &lt;script&gt;</span><br><span class="line">    // 2. 创建一个Vue的实例</span><br><span class="line">    // 当我们导入包之后，在浏览器的内存中，就多了一个 Vue 构造函数</span><br><span class="line">    //  注意：我们 new 出来的这个 vm 对象，就是我们 MVVM中的 VM调度者</span><br><span class="line">    var vm = new Vue(&#123;</span><br><span class="line">      el: &apos;#app&apos;,  // 表示，当前我们 new 的这个 Vue 实例，要控制页面上的哪个区域</span><br><span class="line">                   // 这里的 data 就是 MVVM中的 M，专门用来保存 每个页面的数据的</span><br><span class="line">      data: &#123;      // data 属性中，存放的是 el 中要用到的数据</span><br><span class="line">        msg: &apos;欢迎学习Vue&apos; // 通过 Vue 提供的指令，很方便的就能把数据渲染到页面上，程序员不再手动操作DOM元素</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">  &lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="Vue之插值表达式、v-cloak、v-text和v-html"><a href="#Vue之插值表达式、v-cloak、v-text和v-html" class="headerlink" title="Vue之插值表达式、v-cloak、v-text和v-html"></a>Vue之<code>插值表达式</code>、<code>v-cloak</code>、<code>v-text</code>和<code>v-html</code></h2><p>1.插值表达式<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id=&quot;app&quot;&gt;</span><br><span class="line">   &lt;p&gt;&#123;&#123; msg &#125;&#125;&lt;/p&gt;</span><br><span class="line"> &lt;/div&gt;</span><br></pre></td></tr></table></figure></p>
+<p>2.v-cloak：解决插值表达式闪烁问题<br>情景描述：</p>
 <ul>
-<li>配置环境变量：在我的电脑配置环境变量，添加git的path</li>
-<li>vscode安装插件：在vscode2017之后就不用安装git的插件了，自带的</li>
-<li>本地仓库捣鼓一番</li>
-<li>创建远程仓库</li>
-<li>本地仓库发布到远程仓库</li>
+<li>将浏览器网速调为slow3G（模拟网速很慢的情况下）</li>
+<li>打开浏览器页面，先是空白，等数据渲染完成之后才显示数据（不会出现数据未渲染的时候，显示插值表达式，当网速快时，即出现闪烁问题）<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">  [v-cloak] &#123;</span><br><span class="line">     display: none; </span><br><span class="line">  &#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line"></span><br><span class="line">&lt;div id=&quot;app&quot;&gt;</span><br><span class="line">    &lt;p v-cloak&gt;&#123;&#123; msg &#125;&#125;&lt;/p&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+</li>
 </ul>
-</blockquote>
-<h3 id="1-配置环境变量"><a href="#1-配置环境变量" class="headerlink" title="1.配置环境变量"></a>1.配置环境变量</h3><blockquote>
+<p>3.v-text和v-html</p>
+<ul>
+<li>两者默认都没有闪烁问题</li>
+<li>两者都会在渲染数据之后覆盖元素中原来的内容，对比插值表达式，只替换自己这个占位符，不会把整个元素清空</li>
+<li>不同的是，v-html是以html形式覆盖<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id=&quot;app&quot;&gt;</span><br><span class="line">  &lt;p v-cloak&gt;++++++++ &#123;&#123; msg &#125;&#125; ----------&lt;/p&gt;</span><br><span class="line">  &lt;h4 v-text=&quot;msg&quot;&gt;==================&lt;/h4&gt;</span><br><span class="line">  &lt;div&gt;&#123;&#123;msg2&#125;&#125;&lt;/div&gt;</span><br><span class="line">  &lt;div v-text=&quot;msg2&quot;&gt;&lt;/div&gt;</span><br><span class="line">  &lt;div v-html=&quot;msg2&quot;&gt;1212112&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>vm实例：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    var vm = new Vue(&#123;</span><br><span class="line">      el: &apos;#app&apos;,</span><br><span class="line">      data: &#123;</span><br><span class="line">        msg: &apos;123&apos;,</span><br><span class="line">        msg2: &apos;&lt;h1&gt;我是H1&lt;/h1&gt;&apos;,</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">  &lt;/script&gt;</span><br></pre></td></tr></table></figure></p>
+<p>浏览器：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">++++++++123----------</span><br><span class="line">123</span><br><span class="line">&lt;h1&gt;我是H1&lt;/h1&gt;</span><br><span class="line">&lt;h1&gt;我是H1&lt;/h1&gt;</span><br><span class="line">我是H1</span><br></pre></td></tr></table></figure></p>
+<h2 id="Vue指令之v-bind的三种用法"><a href="#Vue指令之v-bind的三种用法" class="headerlink" title="Vue指令之v-bind的三种用法"></a>Vue指令之<code>v-bind</code>的三种用法</h2><p>Vue提供的属性绑定机制   缩写是<code>:</code></p>
 <ol>
-<li>找到git安装的位置，然后找到git的cmd文件，把这个文件所在的路径,添加到电脑的环境变量</li>
-<li>并且在vscode的用户设置中设置好<code>git.path</code><br>如图，</li>
+<li><p>直接使用指令<code>v-bind</code></p>
+</li>
+<li><p>使用简化指令<code>:</code></p>
+</li>
+<li><p>在绑定的时候，拼接绑定内容：<code>:title=&quot;btnTitle + &#39;, 这是追加的内容&#39;&quot;</code></p>
+</li>
 </ol>
-</blockquote>
-<p><img src="/2019/01/18/git的使用4/git1.jpg" alt="环境变量配置"></p>
-<p><img src="/2019/01/18/git的使用4/git2.jpg" alt="环境变量配置"></p>
-<h3 id="2-vscode-安装插件"><a href="#2-vscode-安装插件" class="headerlink" title="2.vscode 安装插件"></a>2.vscode 安装插件</h3><blockquote>
-<p>我的vscode版本是2017的，所以不用安装网上说的那个插件（不过我搜了一下拓展商城，貌似没有找到╥﹏╥…哈哈那就先不管啦~</p>
-</blockquote>
-<h3 id="3-本地仓库捣鼓一番"><a href="#3-本地仓库捣鼓一番" class="headerlink" title="3.本地仓库捣鼓一番"></a>3.本地仓库捣鼓一番</h3><blockquote>
-<p>就如上几篇说的那样来操作啦，具体操作可以看上几篇~~<br>这里来粗略地复习一下（敲黑板，咳咳</p>
-</blockquote>
-<ul>
-<li>初始化仓库 <code>git init</code></li>
-<li>添加文件，并将其放到仓库门口：<code>git add ./</code></li>
-<li>将文件从仓库门口放到房间里：<code>git commit -m &quot;说明&quot;</code></li>
-</ul>
-<h3 id="4-创建远程仓库"><a href="#4-创建远程仓库" class="headerlink" title="4.创建远程仓库"></a>4.创建远程仓库</h3><blockquote>
-<p>就是在GitHubt账户头像附近 点击 <code>+</code> <strong>new repository</strong><br>创建成功之后就复制仓库地址，下面用来连接本地仓库</p>
-</blockquote>
-<h3 id="5-本地仓库发布到远程仓库"><a href="#5-本地仓库发布到远程仓库" class="headerlink" title="5.本地仓库发布到远程仓库"></a>5.本地仓库发布到远程仓库</h3><blockquote>
-<p>连接远程仓库：<br><code>git remote add origin git@github.com:fearlessxmm/test113.git</code><br>这时候，我们来到vscode中，看到下面的图，具体操作图中展示了</p>
-</blockquote>
-<p><img src="/2019/01/18/git的使用4/git3.jpg" alt="vscode git操作图示"></p>
-<blockquote>
-<p>然后,在vscode 中 add commit一条龙之后，点击push（推送）</p>
-<p><strong>but！！！</strong>发现我的vscode提示“把本地库内容推送到远程库出现错误”（哭了，这里找了好多好多资料都没有这个提示，别人都是一气呵成的╥﹏╥…</p>
-</blockquote>
-<blockquote>
-<p>后来后来，找了好久，终于找到一个，就试了一下：就是在git文件夹的config文件中修改url</p>
-</blockquote>
-<blockquote>
-<p>实际上是这样的，一开始我是用之前连接了远程仓库的本地仓库来做这一系列的工作，可能有什么冲突吧，git Bash上是可以push的，但是到了vscode就不行。</p>
-<p>但是呢，其实只要做了上面连接远程仓库的命令之后，就已经在git文件夹config文件中创建了连接的url了，如图，</p>
-</blockquote>
-<p><img src="/2019/01/18/git的使用4/git4.jpg" alt="config"></p>
-<blockquote>
-<p>总结一点：<br>连接远程仓库的命令之后，就已经在git文件夹config文件中有url，并且这个url是你要连接的仓库没错的话，就可以在vscode中执行push等等操作了。</p>
-</blockquote>
-<p>这里在做一个小记录，我是从这里看到有这个方法的：<br>参考链接：<a href="https://blog.csdn.net/zhuhengv/article/details/52537444" target="_blank" rel="noopener">https://blog.csdn.net/zhuhengv/article/details/52537444</a></p>
-<p>就这样，就可以在vscode中使用git啦~~（哭了。。</p>
+<p>这个例子，将鼠标悬放在按钮表面，会有<code>这是一个自己定义的title123</code>提示</p>
+<p><code>注意：这里的mytitle要当成变量来看待</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id=&quot;app&quot;&gt;</span><br><span class="line">   &lt;input type=&quot;button&quot; value=&quot;按钮&quot; v-bind:title=&quot;mytitle + &apos;123&apos;&quot;&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">   var vm = new Vue(&#123;</span><br><span class="line">     el: &apos;#app&apos;,</span><br><span class="line">     data: &#123;</span><br><span class="line">       mytitle: &apos;这是一个自己定义的title&apos;</span><br><span class="line">     &#125;</span><br><span class="line"> &lt;/script&gt;</span><br></pre></td></tr></table></figure></p>
+<h2 id="Vue指令之v-on"><a href="#Vue指令之v-on" class="headerlink" title="Vue指令之v-on"></a>Vue指令之<code>v-on</code></h2><p>Vue提供的事件绑定机制   缩写是<code>@</code></p>
+<ol>
+<li><p>直接使用指令<code>v-on</code></p>
+</li>
+<li><p>使用简化指令<code>@</code></p>
+</li>
+</ol>
+<p>这个例子，打开浏览器，点击按钮，就会触发show方法，弹出提示框“Hello”<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id=&quot;app&quot;&gt;</span><br><span class="line">    &lt;input type=&quot;button&quot; value=&quot;按钮&quot; @click=&quot;show&quot;&gt;</span><br><span class="line"> &lt;/div&gt;</span><br><span class="line"></span><br><span class="line"> &lt;script&gt;</span><br><span class="line">    var vm = new Vue(&#123;</span><br><span class="line">      el: &apos;#app&apos;,</span><br><span class="line">      data: &#123;&#125;,</span><br><span class="line">      methods: &#123; // 这个 methods属性中定义了当前Vue实例所有可用的方法</span><br><span class="line">        show: function () &#123;</span><br><span class="line">          alert(&apos;Hello&apos;)</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">  &lt;/script&gt;</span><br></pre></td></tr></table></figure></p>
+<p> 未完待续。。。。</p>
 
       
     </div>
@@ -506,7 +462,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://fearlessxmm.github.io/2019/01/18/git的使用4/" title="git在vscode中的使用">https://fearlessxmm.github.io/2019/01/18/git的使用4/</a>
+    <a href="https://fearlessxmm.github.io/2019/01/26/Vue指令的学习/" title="Vue指令的学习（一）">https://fearlessxmm.github.io/2019/01/26/Vue指令的学习/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>
@@ -522,9 +478,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Git/" rel="tag"><i class="fa fa-tag"></i> Git</a>
+            <a href="/tags/Vue/" rel="tag"><i class="fa fa-tag"></i> Vue</a>
           
-            <a href="/tags/vscode/" rel="tag"><i class="fa fa-tag"></i> vscode</a>
+            <a href="/tags/Vue指令/" rel="tag"><i class="fa fa-tag"></i> Vue指令</a>
           
         </div>
       
@@ -537,8 +493,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/01/18/Git的使用3/" rel="next" title="git的使用之查看当前状态">
-                <i class="fa fa-chevron-left"></i> git的使用之查看当前状态
+              <a href="/2019/01/18/git的使用4/" rel="next" title="git在vscode中的使用">
+                <i class="fa fa-chevron-left"></i> git在vscode中的使用
               </a>
             
           </div>
@@ -546,10 +502,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/01/26/Vue指令的学习/" rel="prev" title="Vue指令的学习（一）">
-                Vue指令的学习（一） <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -686,7 +638,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#git在vscode中的使用"><span class="nav-number">1.</span> <span class="nav-text">git在vscode中的使用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-配置环境变量"><span class="nav-number">2.</span> <span class="nav-text">1.配置环境变量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-vscode-安装插件"><span class="nav-number">3.</span> <span class="nav-text">2.vscode 安装插件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-本地仓库捣鼓一番"><span class="nav-number">4.</span> <span class="nav-text">3.本地仓库捣鼓一番</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-创建远程仓库"><span class="nav-number">5.</span> <span class="nav-text">4.创建远程仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-本地仓库发布到远程仓库"><span class="nav-number">6.</span> <span class="nav-text">5.本地仓库发布到远程仓库</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Vue之-基本的代码结构"><span class="nav-number">1.</span> <span class="nav-text">Vue之 - 基本的代码结构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Vue之插值表达式、v-cloak、v-text和v-html"><span class="nav-number">2.</span> <span class="nav-text">Vue之插值表达式、v-cloak、v-text和v-html</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Vue指令之v-bind的三种用法"><span class="nav-number">3.</span> <span class="nav-text">Vue指令之v-bind的三种用法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Vue指令之v-on"><span class="nav-number">4.</span> <span class="nav-text">Vue指令之v-on</span></a></li></ol></div>
             
 
           </div>
